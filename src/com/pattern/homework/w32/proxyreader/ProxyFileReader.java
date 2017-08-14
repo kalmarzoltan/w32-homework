@@ -7,21 +7,12 @@ public class ProxyFileReader implements FileReader {
 	
 	@Override
 	public List<String> readFromTxt() {
-		FileReader realFileReader = new RealFileReader();
+		RealFileReader realFileReader = new RealFileReader();
 		return realFileReader.readFromTxt();
 	}
 
-	@Override
-	public void readHillarysBleachedEmails() {
-		System.out.println("No access to Hillary's Bleached Emails...");
-		
-	}
-
-	@Override
-	public void readTrumpsTaxStatement() {
-		System.out.println("No access to Trump's Tax Statement...");
-		
-	}
+	
+	
 
 	
 

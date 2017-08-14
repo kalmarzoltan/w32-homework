@@ -10,9 +10,9 @@ public class HeroRunner {
 
 	public static void main(String[] args) {
 		
-		FileReader proxyFileReader = new ProxyFileReader();
-		proxyFileReader.readHillarysBleachedEmails();
-		proxyFileReader.readTrumpsTaxStatement();
+		ProxyFileReader	 proxyFileReader = new ProxyFileReader();
+		//proxyFileReader.readHillarysBleachedEmails();
+		//proxyFileReader.readTrumpsTaxStatement();
 		proxyFileReader.readFromTxt();
 		
 		
@@ -26,6 +26,8 @@ public class HeroRunner {
 
 		Hero hero3 = makeHeroes.orderTheHero("Expendable");
 		System.out.println(hero3 + "\n");
+		
+		
 
 	}
 
