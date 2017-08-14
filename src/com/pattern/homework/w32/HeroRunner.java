@@ -1,8 +1,17 @@
 package com.pattern.homework.w32;
 
+
+
 public class HeroRunner {
 
 	public static void main(String[] args) {
+		
+		FileReader proxyFileReader = new ProxyFileReader();
+		proxyFileReader.readHillarysBleachedEmails();
+		proxyFileReader.readTrumpsTaxStatement();
+		proxyFileReader.readFromTxt();
+		
+		
 		HeroBuilding makeHeroes = new HeroOptionsBuilding();
 
 		Hero hero1 = makeHeroes.orderTheHero("DC");

@@ -17,6 +17,16 @@
 
 ### Output
 
+<sub> No access to Hillary's Bleached Emails...
+
+<sub>No access to Trump's Tax Statement...
+
+<sub>Crime has taken over our cities!!!
+
+<sub>Who is going to save us?
+
+----------------------------------
+
 <sub> Please somebody call Superman<br>
 Superman has appeared on the Scene...<br>
 Superman is attacking the Enemy<br>
@@ -40,8 +50,8 @@ He is dealing 90 damage with a razorblade
 
 ### Items to be recovered in the Future
 
-+ Proxy pattern usage
-+ input from .txt file
++ Proxy pattern usage -> done
++ input from .txt file -> done
 
 
 ### Let's try adding an image
